@@ -1,0 +1,320 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDR_IGNORE	sockets.h	78;"	d
+CC	Makefile	/^CC := gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS := -g -Wall $/;"	m
+CONFIG	fs.c	22;"	d	file:
+DATA	con_cli.c	/^enum {KILL, HEADER, DATA};$/;"	e	enum:__anon1	file:
+DATA	con_dat.h	/^enum {KILL, HEADER, DATA};$/;"	e	enum:__anon2
+DATA_PATH	config.h	8;"	d
+DEFAULT_GROUP	config.h	11;"	d
+DEFAULT_USER	config.h	14;"	d
+EINPROGRESS	sockets.c	33;"	d	file:
+ETC_PATH	config.h	17;"	d
+GET16BIT	data_pack.h	49;"	d
+GET32BIT	data_pack.h	43;"	d
+GET64BIT	data_pack.h	36;"	d
+GET8BIT	data_pack.h	54;"	d
+HASHPOS	chunks.c	9;"	d	file:
+HASHSIZE	chunks.c	8;"	d	file:
+HAVE_ARPA_INET_H	config.h	20;"	d
+HAVE_BZERO	config.h	23;"	d
+HAVE_DIRENT_H	config.h	27;"	d
+HAVE_DUP2	config.h	30;"	d
+HAVE_FCNTL_H	config.h	33;"	d
+HAVE_FORK	config.h	36;"	d
+HAVE_FTRUNCATE	config.h	39;"	d
+HAVE_GETHOSTBYNAME	config.h	42;"	d
+HAVE_GETTIMEOFDAY	config.h	45;"	d
+HAVE_INTTYPES_H	config.h	48;"	d
+HAVE_LIMITS_H	config.h	51;"	d
+HAVE_MALLOC	config.h	59;"	d
+HAVE_MEMORY_H	config.h	62;"	d
+HAVE_MEMSET	config.h	65;"	d
+HAVE_MKDIR	config.h	68;"	d
+HAVE_NETDB_H	config.h	74;"	d
+HAVE_NETINET_IN_H	config.h	77;"	d
+HAVE_REALLOC	config.h	81;"	d
+HAVE_REALPATH	config.h	84;"	d
+HAVE_SELECT	config.h	87;"	d
+HAVE_SOCKET	config.h	90;"	d
+HAVE_STDBOOL_H	config.h	97;"	d
+HAVE_STDINT_H	config.h	100;"	d
+HAVE_STDLIB_H	config.h	103;"	d
+HAVE_STRCHR	config.h	106;"	d
+HAVE_STRDUP	config.h	109;"	d
+HAVE_STRERROR	config.h	112;"	d
+HAVE_STRINGS_H	config.h	115;"	d
+HAVE_STRING_H	config.h	118;"	d
+HAVE_STRTOL	config.h	121;"	d
+HAVE_STRTOUL	config.h	124;"	d
+HAVE_STRUCT_DIRENT_D_TYPE	config.h	127;"	d
+HAVE_STRUCT_STAT_ST_BLOCKS	config.h	130;"	d
+HAVE_STRUCT_STAT_ST_RDEV	config.h	133;"	d
+HAVE_STRUCT_TM_TM_GMTOFF	config.h	136;"	d
+HAVE_ST_BLOCKS	config.h	140;"	d
+HAVE_SYSLOG_H	config.h	143;"	d
+HAVE_SYS_SELECT_H	config.h	154;"	d
+HAVE_SYS_SOCKET_H	config.h	157;"	d
+HAVE_SYS_STATVFS_H	config.h	160;"	d
+HAVE_SYS_STAT_H	config.h	163;"	d
+HAVE_SYS_TIME_H	config.h	166;"	d
+HAVE_SYS_TYPES_H	config.h	169;"	d
+HAVE_SYS_WAIT_H	config.h	172;"	d
+HAVE_UNISTD_H	config.h	175;"	d
+HAVE_VFORK	config.h	178;"	d
+HAVE_WORKING_FORK	config.h	184;"	d
+HAVE_WORKING_VFORK	config.h	187;"	d
+HAVE__BOOL	config.h	190;"	d
+HEADER	con_cli.c	/^enum {KILL, HEADER, DATA};$/;"	e	enum:__anon1	file:
+HEADER	con_dat.h	/^enum {KILL, HEADER, DATA};$/;"	e	enum:__anon2
+INADDR_NONE	sockets.c	49;"	d	file:
+KILL	con_cli.c	/^enum {KILL, HEADER, DATA};$/;"	e	enum:__anon1	file:
+KILL	con_dat.h	/^enum {KILL, HEADER, DATA};$/;"	e	enum:__anon2
+LIBS	Makefile	/^LIBS := -pthread $/;"	m
+LSTAT_FOLLOWS_SLASHED_SYMLINK	config.h	194;"	d
+MAX_NAME_LEN	con_cli.c	16;"	d	file:
+MAX_NAME_LEN	con_dat.c	19;"	d	file:
+MAX_NAME_LEN	fs.c	23;"	d	file:
+MAX_PATH_LEN	fs.c	24;"	d	file:
+MAX_STR_LEN	fs.c	25;"	d	file:
+MaxPacketSize	con_cli.c	15;"	d	file:
+MaxPacketSize	con_dat.c	18;"	d	file:
+NODE_HASH_POS	fs.c	19;"	d	file:
+NODE_HASH_SIZE	fs.c	18;"	d	file:
+OBJ	Makefile	/^OBJ	:=$(patsubst %.c, %.o, $(wildcard *.c))$/;"	m
+PACKAGE	config.h	200;"	d
+PACKAGE_BUGREPORT	config.h	203;"	d
+PACKAGE_NAME	config.h	206;"	d
+PACKAGE_STRING	config.h	209;"	d
+PACKAGE_TARNAME	config.h	212;"	d
+PACKAGE_VERSION	config.h	215;"	d
+PATH	con_cli.c	/^char PATH[] = "\/home\/cc";$/;"	v
+PATH	fs.c	21;"	d	file:
+PREFIX	config.h	218;"	d
+PUT16BIT	data_pack.h	25;"	d
+PUT32BIT	data_pack.h	16;"	d
+PUT64BIT	data_pack.h	4;"	d
+PUT8BIT	data_pack.h	31;"	d
+RUN_PATH	config.h	221;"	d
+SELECT_TYPE_ARG1	config.h	224;"	d
+SELECT_TYPE_ARG234	config.h	227;"	d
+SELECT_TYPE_ARG5	config.h	230;"	d
+STDC_HEADERS	config.h	233;"	d
+TARGET	Makefile	/^TARGET := ser$/;"	m
+TIME_WITH_SYS_TIME	config.h	236;"	d
+VERSION	config.h	242;"	d
+VERSMAJ	config.h	245;"	d
+VERSMID	config.h	248;"	d
+VERSMIN	config.h	251;"	d
+_CHUNKS_H_	chunks.h	2;"	d
+_CON_CLI_H_	con_cli.h	2;"	d
+_CON_DAT_H_	con_dat.h	2;"	d
+_CSER_H_	ser.h	2;"	d
+_DATA_PACK_H_	data_pack.h	2;"	d
+_FS_H_	fs.h	2;"	d
+_INIT_H_	init.h	2;"	d
+_SOCKETS_H_	sockets.h	20;"	d
+_fs_edge	fs.c	/^typedef struct _fs_edge {$/;"	s	file:
+_fs_node	fs.c	/^typedef struct _fs_node {$/;"	s	file:
+add_chunkid_to_fs	fs.c	/^int8_t add_chunkid_to_fs(uint32_t inode, uint32_t index, uint64_t *chunkid)$/;"	f
+addrlen	sockets.c	/^static uint32_t addrlen = 0;$/;"	v	file:
+addrmax	sockets.c	/^static uint32_t addrmax = 0;$/;"	v	file:
+addrtab	sockets.c	/^static struct sockaddr_in *addrtab=NULL;$/;"	v	typeref:struct:sockaddr_in	file:
+amutex	sockets.c	/^static pthread_mutex_t amutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+analyze_cli_packet	con_cli.c	/^void analyze_cli_packet(cli_info *info,uint32_t type,uint8_t *data,uint32_t length) $/;"	f
+analyze_dat_packet	con_dat.c	/^void analyze_dat_packet(dat_info *info,uint32_t type,uint8_t *data,uint32_t length) $/;"	f
+buff	con_cli.c	/^	uint8_t buff[8];$/;"	m	struct:cli_info	file:
+buff	con_dat.h	/^	uint8_t buff[8];$/;"	m	struct:dat_info
+bytes	con_cli.c	/^	uint32_t bytes;$/;"	m	struct:packets	file:
+bytes	con_dat.h	/^	uint32_t bytes;$/;"	m	struct:packets
+cc_creat_file	con_cli.c	/^void cc_creat_file(cli_info *info,uint8_t *data,uint32_t length)$/;"	f
+cc_fs_getdir	con_cli.c	/^void cc_fs_getdir(cli_info *info,uint8_t *data,uint32_t length) $/;"	f
+cc_fuse_getattr	con_cli.c	/^void cc_fuse_getattr(cli_info *info,uint8_t *data,uint32_t length) $/;"	f
+cc_fuse_getdir	con_cli.c	/^void cc_fuse_getdir(cli_info *info,uint8_t *data,uint32_t length) $/;"	f
+cc_fuse_lookup	con_cli.c	/^void cc_fuse_lookup(cli_info *info,uint8_t *data,uint32_t length) {$/;"	f
+cc_fuse_read_chunk	con_cli.c	/^void cc_fuse_read_chunk(cli_info *info, uint8_t *data,uint32_t length) $/;"	f
+cc_fuse_statfs	con_cli.c	/^void cc_fuse_statfs(cli_info *info,uint8_t *data,uint32_t length)$/;"	f
+cc_judge_name	con_cli.c	/^void cc_judge_name(cli_info *info,uint8_t *data,uint32_t length)$/;"	f
+cc_write_chunk	con_cli.c	/^void cc_write_chunk(cli_info *info, uint8_t *data,uint32_t length) $/;"	f
+cc_write_chunk_end	con_cli.c	/^void cc_write_chunk_end(cli_info *info, uint8_t *data,uint32_t length) $/;"	f
+change	fs.c	/^static uint8_t change = 0;$/;"	v	file:
+change_file_size	fs.c	/^int8_t change_file_size(uint32_t inode, uint32_t index, uint64_t size)$/;"	f
+char_to_uint32	fs.c	/^uint32_t char_to_uint32(const char *buf)$/;"	f
+char_to_uint64	fs.c	/^uint64_t char_to_uint64(const char *buf)$/;"	f
+child	fs.c	/^	struct _fs_node **child;  \/\/ $/;"	m	struct:_fs_edge	typeref:struct:_fs_edge::_fs_node	file:
+chunk	chunks.c	/^typedef struct chunk {$/;"	s	file:
+chunk	chunks.c	/^} chunk;$/;"	t	typeref:struct:chunk	file:
+chunk_init	chunks.c	/^void chunk_init()$/;"	f
+chunk_tab	fs.c	/^	uint64_t *chunk_tab;$/;"	m	struct:_fs_node	file:
+chunkhash	chunks.c	/^static chunk *chunkhash[HASHSIZE];$/;"	v	file:
+chunkid	chunks.c	/^	uint64_t chunkid;$/;"	m	struct:chunk	file:
+chunks	fs.c	/^	uint32_t chunks;$/;"	m	struct:_fs_node	file:
+cli_desc	con_cli.c	/^int cli_desc(fd_set *rset, fd_set *wset)$/;"	f
+cli_info	con_cli.c	/^typedef struct cli_info {$/;"	s	file:
+cli_info	con_cli.c	/^}cli_info;$/;"	t	typeref:struct:cli_info	file:
+cli_info_head	con_cli.c	/^static cli_info *cli_info_head = NULL;$/;"	v	file:
+cli_serv	con_cli.c	/^void cli_serv(fd_set *rset, fd_set *wset)$/;"	f
+connect_cli	con_cli.c	/^int connect_cli()$/;"	f
+connect_dat	con_dat.c	/^int connect_dat()$/;"	f
+create_cli_packet	con_cli.c	/^uint8_t* create_cli_packet(cli_info *info,uint32_t type,uint32_t size) {$/;"	f
+create_dat_packet	con_dat.c	/^uint8_t* create_dat_packet(dat_info *info,uint32_t type,uint32_t size) $/;"	f
+create_new_chunk	chunks.c	/^int8_t create_new_chunk(uint64_t *chunkid)$/;"	f
+dat_desc	con_dat.c	/^int dat_desc(fd_set *rset, fd_set *wset)$/;"	f
+dat_errors	con_dat.c	/^static int dat_errors = 0;$/;"	v	file:
+dat_info	con_dat.h	/^typedef struct dat_info {$/;"	s
+dat_info	con_dat.h	/^}dat_info;$/;"	t	typeref:struct:dat_info
+dat_info_head	con_dat.c	/^dat_info *dat_info_head = NULL;$/;"	v
+dat_serv	con_dat.c	/^void dat_serv(fd_set *rset, fd_set *wset)$/;"	f
+dat_thread	ser.c	/^void *dat_thread(void *arg)$/;"	f
+datthid	ser.c	/^static pthread_t datthid;$/;"	v	file:
+desc	ser.c	/^	int (*desc)(fd_set *, fd_set *);$/;"	m	struct:selentry	file:
+disconnect	con_dat.c	/^static int disconnect = 1;$/;"	v	file:
+drw_thread	ser.c	/^void *drw_thread(void *arg)$/;"	f
+drwthid	ser.c	/^static pthread_t drwthid;$/;"	v	file:
+exiting	con_cli.c	/^static int exiting = 0;$/;"	v	file:
+exiting	con_dat.c	/^static int exiting = 0;$/;"	v	file:
+file_num	fs.c	/^static uint32_t file_num = 0;$/;"	v	file:
+find_fsnode_by_inode	fs.c	/^fs_node * find_fsnode_by_inode(uint32_t inode)$/;"	f
+fs_creat_file	fs.c	/^int8_t fs_creat_file(uint8_t *name, uint16_t len, uint32_t *new_inode) $/;"	f
+fs_edge	fs.c	/^}fs_edge;$/;"	t	typeref:struct:_fs_edge	file:
+fs_getattr	fs.c	/^int8_t fs_getattr(uint32_t inode,uint8_t attr[35]) $/;"	f
+fs_getdir	fs.c	/^int8_t fs_getdir(uint32_t inode, uint8_t *name_info) $/;"	f
+fs_getdir_from_drw	fs.c	/^int8_t fs_getdir_from_drw(uint32_t inode, uint8_t *name_info) $/;"	f
+fs_look_name	fs.c	/^int8_t fs_look_name(uint8_t *name, uint16_t len, uint32_t *new_inode) $/;"	f
+fs_lookup	fs.c	/^int8_t fs_lookup(uint32_t inode, uint8_t *name, uint16_t nleng, uint8_t attr[35], uint32_t *child_inode) $/;"	f
+fs_node	fs.c	/^}fs_node;$/;"	t	typeref:struct:_fs_node	file:
+fs_read_chunk	fs.c	/^int8_t fs_read_chunk(uint32_t inode, uint32_t index, uint64_t *chunkid, uint64_t *file_size) $/;"	f
+fs_statfs	fs.c	/^void fs_statfs(uint64_t *totalspace,uint64_t *availspace,uint64_t *trspace,uint64_t *respace,uint32_t *inodes) {$/;"	f
+fs_thread	ser.c	/^void *fs_thread(void *arg)$/;"	f
+fsthid	ser.c	/^static pthread_t fsthid;$/;"	v	file:
+func	init.h	/^	module_func func;$/;"	m	struct:__anon3
+get_attr_by_inode	fs.c	/^int get_attr_by_inode(uint32_t inode,uint8_t attr[35])$/;"	f
+get_buffer_col	fs.c	/^int get_buffer_col(const char *buffer, const int col, const char delim, char *result, int len)$/;"	f
+get_dat_chunk_status	con_dat.c	/^void get_dat_chunk_status(dat_info *info, uint8_t *data, uint32_t length)$/;"	f
+get_dat_size	con_dat.c	/^void get_dat_size(dat_info *info, uint8_t *data, uint32_t length)$/;"	f
+getdir_size	fs.c	/^int8_t getdir_size(uint32_t inode, uint32_t *len)$/;"	f
+getdir_size_from_drw	fs.c	/^int8_t getdir_size_from_drw(uint32_t inode, uint32_t *len)$/;"	f
+globaladdr	sockets.c	/^static int32_t globaladdr = -1;$/;"	v	file:
+gmutex	sockets.c	/^static pthread_mutex_t gmutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+hmutex	sockets.c	/^static pthread_mutex_t hmutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+in_data_packet	con_cli.c	/^	packets in_data_packet;$/;"	m	struct:cli_info	file:
+in_data_packet	con_dat.h	/^	packets in_data_packet;$/;"	m	struct:dat_info
+init_file_info	fs.c	/^void init_file_info()$/;"	f
+initser	ser.c	/^int initser()$/;"	f
+inode	fs.c	/^	uint32_t inode;$/;"	m	struct:_fs_node	file:
+inode_next	fs.c	/^static uint32_t inode_next = 100;$/;"	v	file:
+int16_t	sockets.h	/^typedef __int16 int16_t;$/;"	t
+int32_t	sockets.h	/^typedef __int32 int32_t;$/;"	t
+int8_t	sockets.h	/^typedef __int8 int8_t;$/;"	t
+list_all_child	fs.c	/^void list_all_child(uint32_t inode)$/;"	f
+load_config	fs.c	/^int8_t load_config(uint32_t inode)$/;"	f
+load_fs	fs.c	/^int8_t load_fs()$/;"	f
+loopser	ser.c	/^void loopser()$/;"	f
+lsock	con_cli.c	/^static int lsock = 0;$/;"	v	file:
+lsock	con_dat.c	/^static int lsock = 0;$/;"	v	file:
+main	ser.c	/^int main(int argc, char **argv)$/;"	f
+main_time	ser.c	/^uint32_t main_time()$/;"	f
+mode	con_cli.c	/^	int mode;$/;"	m	struct:cli_info	file:
+mode	con_dat.h	/^	int mode;$/;"	m	struct:dat_info
+module_func	init.h	/^typedef int (*module_func) (void);$/;"	t
+module_groups	init.h	/^}module_groups[] = {$/;"	v	typeref:struct:__anon3
+msg	init.h	/^	char *msg;$/;"	m	struct:__anon3
+n_child	fs.c	/^	uint32_t n_child; \/\/ 孩子的数量$/;"	m	struct:_fs_edge	file:
+name	fs.c	/^	uint8_t *name;$/;"	m	struct:_fs_edge	file:
+next	chunks.c	/^	struct chunk *next;$/;"	m	struct:chunk	typeref:struct:chunk::chunk	file:
+next	con_cli.c	/^	struct cli_info *next;$/;"	m	struct:cli_info	typeref:struct:cli_info::cli_info	file:
+next	con_cli.c	/^	struct packets *next;$/;"	m	struct:packets	typeref:struct:packets::packets	file:
+next	con_dat.h	/^	struct dat_info *next;$/;"	m	struct:dat_info	typeref:struct:dat_info::dat_info
+next	con_dat.h	/^	struct packets *next;$/;"	m	struct:packets	typeref:struct:packets::packets
+next	fs.c	/^	struct _fs_node *next;  \/\/ next 代表同一位置的节点$/;"	m	struct:_fs_node	typeref:struct:_fs_node::_fs_node	file:
+next	ser.c	/^	struct selentry *next;$/;"	m	struct:selentry	typeref:struct:selentry::selentry	file:
+next_chunkid	chunks.c	/^uint64_t next_chunkid = 11;$/;"	v
+nleng	fs.c	/^	uint8_t nleng;$/;"	m	struct:_fs_edge	file:
+node_hash	fs.c	/^static fs_node *node_hash[NODE_HASH_SIZE];$/;"	v	file:
+now	ser.c	/^static int32_t now;$/;"	v	file:
+out_data_head	con_cli.c	/^	packets *out_data_head;$/;"	m	struct:cli_info	file:
+out_data_packet	con_dat.h	/^	packets *out_data_packet;$/;"	m	struct:dat_info
+out_data_tail	con_cli.c	/^	packets **out_data_tail;$/;"	m	struct:cli_info	file:
+packet	con_cli.c	/^	uint8_t *packet;$/;"	m	struct:packets	file:
+packet	con_dat.h	/^	uint8_t *packet;$/;"	m	struct:packets
+packets	con_cli.c	/^typedef struct packets {$/;"	s	file:
+packets	con_cli.c	/^} packets;$/;"	t	typeref:struct:packets	file:
+packets	con_dat.h	/^typedef struct packets {$/;"	s
+packets	con_dat.h	/^} packets;$/;"	t	typeref:struct:packets
+parent	fs.c	/^	struct _fs_node *parent;$/;"	m	struct:_fs_edge	typeref:struct:_fs_edge::_fs_node	file:
+r_lasttime	con_cli.c	/^	uint32_t r_lasttime;$/;"	m	struct:cli_info	file:
+r_lasttime	con_dat.h	/^	uint32_t r_lasttime;$/;"	m	struct:dat_info
+read_from_cli	con_cli.c	/^void read_from_cli(cli_info *info)$/;"	f
+read_from_dat	con_dat.c	/^void read_from_dat(dat_info *info)$/;"	f
+receive_thread	con_dat.c	/^void *receive_thread(void *arg)$/;"	f
+refresh_info	fs.c	/^int refresh_info() {$/;"	f
+register_cli	ser.c	/^void register_cli(int (*desc)(fd_set *, fd_set *), void (*serv)(fd_set *, fd_set *))$/;"	f
+root_inode	fs.c	/^static uint32_t root_inode = 10747905;$/;"	v	file:
+rthid	con_dat.c	/^static pthread_t rthid;$/;"	v	file:
+save_file_to_config	fs.c	/^int8_t save_file_to_config(char *name, uint32_t inode, uint8_t type, uint64_t size)$/;"	f
+save_fs_config_to_local	fs.c	/^int8_t save_fs_config_to_local()$/;"	f
+save_fs_node	fs.c	/^int8_t save_fs_node(char *name, uint32_t inode, uint8_t type, uint64_t size, $/;"	f
+selentry	ser.c	/^typedef struct selentry {$/;"	s	file:
+selentry	ser.c	/^}selentry;$/;"	t	typeref:struct:selentry	file:
+self	fs.c	/^	fs_edge *self;$/;"	m	struct:_fs_node	file:
+selhead	ser.c	/^static selentry *selhead = NULL;$/;"	v	file:
+send_chunkid	con_dat.c	/^int8_t send_chunkid(uint64_t chunkid, dat_info *info) $/;"	f
+serv	ser.c	/^	void (*serv)(fd_set *, fd_set *);$/;"	m	struct:selentry	file:
+size	fs.c	/^	uint64_t size;$/;"	m	struct:_fs_edge	file:
+sock	con_cli.c	/^	int sock;$/;"	m	struct:cli_info	file:
+sock	con_dat.h	/^	int sock;$/;"	m	struct:dat_info
+sock_lock	con_dat.c	/^static pthread_mutex_t sock_lock;$/;"	v	file:
+sockaddrchange	sockets.c	/^int sockaddrchange(uint32_t i,const char *hostname,const char *service,const char *proto) {$/;"	f
+sockaddrconvert	sockets.c	/^int sockaddrconvert(const char *hostname,const char *service,const char *proto,uint32_t *ip,uint16_t *port) {$/;"	f
+sockaddrget	sockets.c	/^int sockaddrget(uint32_t i,uint32_t *ip,uint16_t *port) {$/;"	f
+sockaddrnew	sockets.c	/^int sockaddrnew(const char *hostname,const char *service,const char *proto) {$/;"	f
+sockaddrnewempty	sockets.c	/^int32_t sockaddrnewempty() {$/;"	f
+sockaddrnumchange	sockets.c	/^int sockaddrnumchange(uint32_t i,uint32_t ip,uint16_t port) {$/;"	f
+socklen_t	sockets.h	/^typedef int socklen_t;$/;"	t
+socknonblock	sockets.c	/^int socknonblock(int sock) {$/;"	f
+start_ptr	con_cli.c	/^	uint8_t *start_ptr;$/;"	m	struct:packets	file:
+start_ptr	con_dat.h	/^	uint8_t *start_ptr;$/;"	m	struct:packets
+tcpaccept	sockets.c	/^int tcpaccept(int lsock) {$/;"	f
+tcpaccfdata	sockets.c	/^int tcpaccfdata(int sock) {$/;"	f
+tcpaccfhttp	sockets.c	/^int tcpaccfhttp(int sock) {$/;"	f
+tcpaddrconnect	sockets.c	/^int tcpaddrconnect(int sock,uint32_t addr) {$/;"	f
+tcpaddrconvert	sockets.h	52;"	d
+tcpaddrlisten	sockets.c	/^int tcpaddrlisten(int sock,uint32_t addr,uint16_t queue) {$/;"	f
+tcpclose	sockets.c	/^int tcpclose(int sock) {$/;"	f
+tcpconnect	sockets.c	/^int tcpconnect(int sock,const char *hostname,const char *service) {$/;"	f
+tcpgetpeer	sockets.c	/^int tcpgetpeer(int sock,uint32_t *ip,uint16_t *port) {$/;"	f
+tcpgetstatus	sockets.c	/^int tcpgetstatus(int sock) {$/;"	f
+tcplisten	sockets.c	/^int tcplisten(int sock,const char *hostname,const char *service,uint16_t queue) {$/;"	f
+tcpnodelay	sockets.c	/^int tcpnodelay(int sock) {$/;"	f
+tcpnonblock	sockets.h	53;"	d
+tcpnumconnect	sockets.c	/^int tcpnumconnect(int sock,uint32_t ip,uint16_t port) {$/;"	f
+tcpnumlisten	sockets.c	/^int tcpnumlisten(int sock,uint32_t ip,uint16_t port,uint16_t queue) {$/;"	f
+tcpread	sockets.c	/^int32_t tcpread(int sock,void *buff,uint32_t leng) {$/;"	f
+tcpreuseaddr	sockets.c	/^int tcpreuseaddr(int sock) {$/;"	f
+tcpsocket	sockets.c	/^int tcpsocket(void) {$/;"	f
+tcptoread	sockets.c	/^int32_t tcptoread(int sock,void *buff,uint32_t leng,uint32_t msecto) {$/;"	f
+tcptowrite	sockets.c	/^int32_t tcptowrite(int sock,const void *buff,uint32_t leng,uint32_t msecto) {$/;"	f
+tcpwrite	sockets.c	/^int32_t tcpwrite(int sock,const void *buff,uint32_t leng) {$/;"	f
+trim_blank	fs.c	/^void trim_blank(char *str)$/;"	f
+type	fs.c	/^	uint8_t type;$/;"	m	struct:_fs_node	file:
+udpaddrconvert	sockets.h	81;"	d
+udpaddrlisten	sockets.c	/^int udpaddrlisten(int sock,uint32_t addr) {$/;"	f
+udpclose	sockets.c	/^int udpclose(int sock) {$/;"	f
+udplisten	sockets.c	/^int udplisten(int sock,const char *hostname,const char *service) {$/;"	f
+udpnonblock	sockets.h	82;"	d
+udpnumlisten	sockets.c	/^int udpnumlisten(int sock,uint32_t ip,uint16_t port) {$/;"	f
+udpread	sockets.c	/^int udpread(int sock,uint32_t addr,void *buff,uint16_t leng) {$/;"	f
+udpsocket	sockets.c	/^int udpsocket(void) {$/;"	f
+udpwrite	sockets.c	/^int udpwrite(int sock,uint32_t addr,const void *buff,uint16_t leng) {$/;"	f
+uint16_t	sockets.h	/^typedef unsigned __int16 uint16_t;$/;"	t
+uint32_t	sockets.h	/^typedef unsigned __int32 uint32_t;$/;"	t
+uint8_t	sockets.h	/^typedef unsigned __int8 uint8_t;$/;"	t
+w_lasttime	con_cli.c	/^	uint32_t w_lasttime;$/;"	m	struct:cli_info	file:
+w_lasttime	con_dat.h	/^	uint32_t w_lasttime;$/;"	m	struct:dat_info
+write_to_cli	con_cli.c	/^void write_to_cli(cli_info *info)$/;"	f
+write_to_dat	con_dat.c	/^void write_to_dat(dat_info *info)$/;"	f
