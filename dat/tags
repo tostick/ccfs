@@ -1,0 +1,260 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDR_IGNORE	sockets.h	78;"	d
+CC	Makefile	/^CC := gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS := -g -Wall $/;"	m
+DATA	con_cli.c	/^enum {KILL, HEADER, DATA};$/;"	e	enum:__anon1	file:
+DATA_PATH	config.h	8;"	d
+DEFAULT_BUFFSIZE	con_ser.c	16;"	d	file:
+DEFAULT_GROUP	config.h	11;"	d
+DEFAULT_USER	config.h	14;"	d
+EINPROGRESS	sockets.c	33;"	d	file:
+ETC_PATH	config.h	17;"	d
+FS_DIR	mgr_hd.c	15;"	d	file:
+FS_LEN	mgr_hd.c	16;"	d	file:
+GET16BIT	data_pack.h	49;"	d
+GET32BIT	data_pack.h	43;"	d
+GET64BIT	data_pack.h	36;"	d
+GET8BIT	data_pack.h	54;"	d
+HASHPOS	mgr_hd.c	13;"	d	file:
+HASHSIZE	mgr_hd.c	12;"	d	file:
+HAVE_ARPA_INET_H	config.h	20;"	d
+HAVE_BZERO	config.h	23;"	d
+HAVE_DIRENT_H	config.h	27;"	d
+HAVE_DUP2	config.h	30;"	d
+HAVE_FCNTL_H	config.h	33;"	d
+HAVE_FORK	config.h	36;"	d
+HAVE_FTRUNCATE	config.h	39;"	d
+HAVE_GETHOSTBYNAME	config.h	42;"	d
+HAVE_GETTIMEOFDAY	config.h	45;"	d
+HAVE_INTTYPES_H	config.h	48;"	d
+HAVE_LIMITS_H	config.h	51;"	d
+HAVE_MALLOC	config.h	59;"	d
+HAVE_MEMORY_H	config.h	62;"	d
+HAVE_MEMSET	config.h	65;"	d
+HAVE_MKDIR	config.h	68;"	d
+HAVE_NETDB_H	config.h	74;"	d
+HAVE_NETINET_IN_H	config.h	77;"	d
+HAVE_REALLOC	config.h	81;"	d
+HAVE_REALPATH	config.h	84;"	d
+HAVE_SELECT	config.h	87;"	d
+HAVE_SOCKET	config.h	90;"	d
+HAVE_STDBOOL_H	config.h	97;"	d
+HAVE_STDINT_H	config.h	100;"	d
+HAVE_STDLIB_H	config.h	103;"	d
+HAVE_STRCHR	config.h	106;"	d
+HAVE_STRDUP	config.h	109;"	d
+HAVE_STRERROR	config.h	112;"	d
+HAVE_STRINGS_H	config.h	115;"	d
+HAVE_STRING_H	config.h	118;"	d
+HAVE_STRTOL	config.h	121;"	d
+HAVE_STRTOUL	config.h	124;"	d
+HAVE_STRUCT_DIRENT_D_TYPE	config.h	127;"	d
+HAVE_STRUCT_STAT_ST_BLOCKS	config.h	130;"	d
+HAVE_STRUCT_STAT_ST_RDEV	config.h	133;"	d
+HAVE_STRUCT_TM_TM_GMTOFF	config.h	136;"	d
+HAVE_ST_BLOCKS	config.h	140;"	d
+HAVE_SYSLOG_H	config.h	143;"	d
+HAVE_SYS_SELECT_H	config.h	154;"	d
+HAVE_SYS_SOCKET_H	config.h	157;"	d
+HAVE_SYS_STATVFS_H	config.h	160;"	d
+HAVE_SYS_STAT_H	config.h	163;"	d
+HAVE_SYS_TIME_H	config.h	166;"	d
+HAVE_SYS_TYPES_H	config.h	169;"	d
+HAVE_SYS_WAIT_H	config.h	172;"	d
+HAVE_UNISTD_H	config.h	175;"	d
+HAVE_VFORK	config.h	178;"	d
+HAVE_WORKING_FORK	config.h	184;"	d
+HAVE_WORKING_VFORK	config.h	187;"	d
+HAVE__BOOL	config.h	190;"	d
+HEADER	con_cli.c	/^enum {KILL, HEADER, DATA};$/;"	e	enum:__anon1	file:
+INADDR_NONE	sockets.c	49;"	d	file:
+KILL	con_cli.c	/^enum {KILL, HEADER, DATA};$/;"	e	enum:__anon1	file:
+LIBS	Makefile	/^LIBS := -pthread $/;"	m
+LSTAT_FOLLOWS_SLASHED_SYMLINK	config.h	194;"	d
+MAX_NAME_LEN	con_cli.c	17;"	d	file:
+MAX_PATH_LEN	con_cli.c	18;"	d	file:
+MAX_PATH_LEN	mgr_hd.c	17;"	d	file:
+MaxPacketSize	con_cli.c	16;"	d	file:
+OBJ	Makefile	/^OBJ	:=$(patsubst %.c, %.o, $(wildcard *.c))$/;"	m
+PACKAGE	config.h	200;"	d
+PACKAGE_BUGREPORT	config.h	203;"	d
+PACKAGE_NAME	config.h	206;"	d
+PACKAGE_STRING	config.h	209;"	d
+PACKAGE_TARNAME	config.h	212;"	d
+PACKAGE_VERSION	config.h	215;"	d
+PREFIX	config.h	218;"	d
+PUT16BIT	data_pack.h	25;"	d
+PUT32BIT	data_pack.h	16;"	d
+PUT64BIT	data_pack.h	4;"	d
+PUT8BIT	data_pack.h	31;"	d
+RECEIVE_TIMEOUT	con_ser.c	17;"	d	file:
+RETRIES	con_ser.c	18;"	d	file:
+RUN_PATH	config.h	221;"	d
+SELECT_TYPE_ARG1	config.h	224;"	d
+SELECT_TYPE_ARG234	config.h	227;"	d
+SELECT_TYPE_ARG5	config.h	230;"	d
+STDC_HEADERS	config.h	233;"	d
+TARGET	Makefile	/^TARGET := dat$/;"	m
+TIME_WITH_SYS_TIME	config.h	236;"	d
+VERSION	config.h	242;"	d
+VERSMAJ	con_ser.c	12;"	d	file:
+VERSMAJ	config.h	245;"	d
+VERSMID	con_ser.c	13;"	d	file:
+VERSMID	config.h	248;"	d
+VERSMIN	con_ser.c	14;"	d	file:
+VERSMIN	config.h	251;"	d
+_CON_CLI_H_	con_cli.h	2;"	d
+_CSER_H_	dat.h	2;"	d
+_DATA_PACK_H_	data_pack.h	2;"	d
+_MGR_HD_H_	mgr_hd.h	2;"	d
+_RW_DATA_H_	rw_data.h	2;"	d
+_SER_H_	con_ser.h	2;"	d
+_SOCKETS_H_	sockets.h	20;"	d
+_threc	con_ser.c	/^typedef struct _threc {$/;"	s	file:
+addrlen	sockets.c	/^static uint32_t addrlen = 0;$/;"	v	file:
+addrmax	sockets.c	/^static uint32_t addrmax = 0;$/;"	v	file:
+addrtab	sockets.c	/^static struct sockaddr_in *addrtab=NULL;$/;"	v	typeref:struct:sockaddr_in	file:
+amutex	sockets.c	/^static pthread_mutex_t amutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+analyze_cli_packet	con_cli.c	/^void analyze_cli_packet(cli_info *info,uint32_t type,uint8_t *data,uint32_t length) $/;"	f
+analyze_ser_cmd	con_ser.c	/^int8_t analyze_ser_cmd(uint32_t type)$/;"	f
+analyze_ser_packet	con_ser.c	/^void analyze_ser_packet(uint32_t type, uint32_t size)$/;"	f
+buff	con_cli.c	/^	uint8_t buff[8];$/;"	m	struct:cli_info	file:
+buff	con_ser.c	/^	uint8_t *buff;$/;"	m	struct:_threc	file:
+buffsize	con_ser.c	/^	uint32_t buffsize;$/;"	m	struct:_threc	file:
+bytes	con_cli.c	/^	uint32_t bytes;$/;"	m	struct:packets	file:
+cc_recv_data	con_cli.c	/^void cc_recv_data(cli_info *info,uint8_t *data,uint32_t length) {$/;"	f
+cc_send_data	con_cli.c	/^void cc_send_data(cli_info *info,uint8_t *data,uint32_t length) {$/;"	f
+chunk	mgr_hd.c	/^typedef struct chunk {$/;"	s	file:
+chunk	mgr_hd.c	/^}chunk;$/;"	t	typeref:struct:chunk	file:
+chunkid	mgr_hd.c	/^	uint64_t chunkid;$/;"	m	struct:chunk	file:
+cli_desc	con_cli.c	/^int cli_desc(fd_set *rset, fd_set *wset)$/;"	f
+cli_info	con_cli.c	/^typedef struct cli_info {$/;"	s	file:
+cli_info	con_cli.c	/^}cli_info;$/;"	t	typeref:struct:cli_info	file:
+cli_info_head	con_cli.c	/^static cli_info *cli_info_head = NULL;$/;"	v	file:
+cli_serv	con_cli.c	/^void cli_serv(fd_set *rset, fd_set *wset)$/;"	f
+cmd	con_ser.c	/^	uint32_t cmd;$/;"	m	struct:_threc	file:
+cond	con_ser.c	/^	pthread_cond_t cond;$/;"	m	struct:_threc	file:
+connect_cli	con_cli.c	/^int connect_cli()$/;"	f
+connect_ser	con_ser.c	/^void connect_ser()$/;"	f
+create_cli_packet	con_cli.c	/^uint8_t* create_cli_packet(cli_info *info,uint32_t type,uint32_t size) {$/;"	f
+create_file	mgr_hd.c	/^int8_t create_file(uint64_t chunkid)$/;"	f
+cuid	con_ser.c	/^static uint32_t cuid;$/;"	v	file:
+desc	dat.c	/^	int (*desc)(fd_set *, fd_set *);$/;"	m	struct:selentry	file:
+disconnect	con_ser.c	/^static int disconnect;$/;"	v	file:
+exiting	con_cli.c	/^static int exiting = 0;$/;"	v	file:
+fd	con_ser.c	/^static int fd;$/;"	v	file:
+fdlock	con_ser.c	/^static pthread_mutex_t fdlock;$/;"	v	file:
+filename	mgr_hd.c	/^	char *filename;$/;"	m	struct:chunk	file:
+fs_buffer_init	con_ser.c	/^void fs_buffer_init(threc *rec,uint32_t size) {$/;"	f
+fs_createpacket	con_ser.c	/^uint8_t* fs_createpacket(threc *rec,uint32_t cmd,uint32_t size) {$/;"	f
+fs_get_my_threc	con_ser.c	/^threc* fs_get_my_threc() {$/;"	f
+fs_get_threc_by_id	con_ser.c	/^threc* fs_get_threc_by_id(uint32_t packetid) {$/;"	f
+fs_getattr	con_ser.c	/^uint8_t fs_getattr(uint32_t inode,uint8_t attr[35]) {$/;"	f
+fs_getdir	con_ser.c	/^uint8_t fs_getdir(uint32_t inode,uint32_t uid,uint32_t gid,uint8_t **dbuff,uint32_t *dbuffsize) {$/;"	f
+fs_lookup	con_ser.c	/^uint8_t fs_lookup(uint32_t parent,uint8_t nleng,const uint8_t *name,uint32_t uid,uint32_t gid,uint32_t *inode,uint8_t attr[35]) {$/;"	f
+fs_readchunk	con_ser.c	/^uint8_t fs_readchunk(uint32_t inode,uint32_t indx,uint64_t *length,uint64_t *chunkid,$/;"	f
+fs_sendandreceive	con_ser.c	/^uint8_t* fs_sendandreceive(threc *rec,uint32_t command_info,uint32_t *info_length) {$/;"	f
+fs_statfs	con_ser.c	/^void fs_statfs(uint64_t *totalspace,uint64_t *availspace,uint64_t *trashspace,uint64_t *reservedspace,uint32_t *inodes) {$/;"	f
+get_chunkid	con_ser.c	/^void get_chunkid(uint8_t *data) $/;"	f
+get_file_size	rw_data.c	/^uint32_t get_file_size(const char *path)$/;"	f
+get_path_by_chunkid	mgr_hd.c	/^int8_t get_path_by_chunkid(char *path, uint64_t chunkid)$/;"	f
+globaladdr	sockets.c	/^static int32_t globaladdr = -1;$/;"	v	file:
+gmutex	sockets.c	/^static pthread_mutex_t gmutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+hashtab	mgr_hd.c	/^static chunk *hashtab[HASHSIZE];$/;"	v	file:
+hd_init	mgr_hd.c	/^void hd_init()$/;"	f
+heartbeat_thread	con_ser.c	/^void *heartbeat_thread(void *arg)$/;"	f
+hmutex	sockets.c	/^static pthread_mutex_t hmutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+hthid	con_ser.c	/^static pthread_t hthid;$/;"	v	file:
+in_data_packet	con_cli.c	/^	packets in_data_packet;$/;"	m	struct:cli_info	file:
+int16_t	sockets.h	/^typedef __int16 int16_t;$/;"	t
+int32_t	sockets.h	/^typedef __int32 int32_t;$/;"	t
+int8_t	sockets.h	/^typedef __int8 int8_t;$/;"	t
+ip	con_ser.c	/^static char *ip;$/;"	v	file:
+load_data	rw_data.c	/^int8_t load_data(char *path, uint32_t length, char *buf)$/;"	f
+loopser	dat.c	/^void loopser()$/;"	f
+lsock	con_cli.c	/^static int lsock = 0;$/;"	v	file:
+main	dat.c	/^int main(int argc, char **argv)$/;"	f
+main_time	dat.c	/^uint32_t main_time()$/;"	f
+mode	con_cli.c	/^	int mode;$/;"	m	struct:cli_info	file:
+mutex	con_ser.c	/^	pthread_mutex_t mutex;$/;"	m	struct:_threc	file:
+next	con_cli.c	/^	struct cli_info *next;$/;"	m	struct:cli_info	typeref:struct:cli_info::cli_info	file:
+next	con_cli.c	/^	struct packets *next;$/;"	m	struct:packets	typeref:struct:packets::packets	file:
+next	con_ser.c	/^	struct _threc *next;$/;"	m	struct:_threc	typeref:struct:_threc::_threc	file:
+next	dat.c	/^	struct selentry *next;$/;"	m	struct:selentry	typeref:struct:selentry::selentry	file:
+next	mgr_hd.c	/^	struct chunk *next;$/;"	m	struct:chunk	typeref:struct:chunk::chunk	file:
+now	dat.c	/^static int32_t now;$/;"	v	file:
+out_data_head	con_cli.c	/^	packets *out_data_head;$/;"	m	struct:cli_info	file:
+out_data_tail	con_cli.c	/^	packets **out_data_tail;$/;"	m	struct:cli_info	file:
+packet	con_cli.c	/^	uint8_t *packet;$/;"	m	struct:packets	file:
+packetid	con_ser.c	/^	uint32_t packetid;$/;"	m	struct:_threc	file:
+packets	con_cli.c	/^typedef struct packets {$/;"	s	file:
+packets	con_cli.c	/^} packets;$/;"	t	typeref:struct:packets	file:
+port	con_ser.c	/^static char *port;$/;"	v	file:
+r_lasttime	con_cli.c	/^	uint32_t r_lasttime;$/;"	m	struct:cli_info	file:
+read_from_cli	con_cli.c	/^void read_from_cli(cli_info *info)$/;"	f
+receive_thread	con_ser.c	/^void *receive_thread(void *arg)$/;"	f
+register_cli	dat.c	/^void register_cli(int (*desc)(fd_set *, fd_set *), void (*serv)(fd_set *, fd_set *))$/;"	f
+release	con_ser.c	/^	uint8_t release;$/;"	m	struct:_threc	file:
+rthid	con_ser.c	/^static pthread_t rthid;$/;"	v	file:
+save_data	rw_data.c	/^int8_t save_data(int sock, char *path, uint64_t size)$/;"	f
+selentry	dat.c	/^typedef struct selentry {$/;"	s	file:
+selentry	dat.c	/^}selentry;$/;"	t	typeref:struct:selentry	file:
+selhead	dat.c	/^static selentry *selhead = NULL;$/;"	v	file:
+sent	con_ser.c	/^	uint8_t sent;$/;"	m	struct:_threc	file:
+ser_init	con_ser.c	/^void ser_init(char *_ip, char *_port)$/;"	f
+serv	dat.c	/^	void (*serv)(fd_set *, fd_set *);$/;"	m	struct:selentry	file:
+size	con_ser.c	/^	uint32_t size;$/;"	m	struct:_threc	file:
+sock	con_cli.c	/^	int sock;$/;"	m	struct:cli_info	file:
+sockaddrchange	sockets.c	/^int sockaddrchange(uint32_t i,const char *hostname,const char *service,const char *proto) {$/;"	f
+sockaddrconvert	sockets.c	/^int sockaddrconvert(const char *hostname,const char *service,const char *proto,uint32_t *ip,uint16_t *port) {$/;"	f
+sockaddrget	sockets.c	/^int sockaddrget(uint32_t i,uint32_t *ip,uint16_t *port) {$/;"	f
+sockaddrnew	sockets.c	/^int sockaddrnew(const char *hostname,const char *service,const char *proto) {$/;"	f
+sockaddrnewempty	sockets.c	/^int32_t sockaddrnewempty() {$/;"	f
+sockaddrnumchange	sockets.c	/^int sockaddrnumchange(uint32_t i,uint32_t ip,uint16_t port) {$/;"	f
+socklen_t	sockets.h	/^typedef int socklen_t;$/;"	t
+socknonblock	sockets.c	/^int socknonblock(int sock) {$/;"	f
+start_ptr	con_cli.c	/^	uint8_t *start_ptr;$/;"	m	struct:packets	file:
+status	con_ser.c	/^	uint8_t status;$/;"	m	struct:_threc	file:
+tcpaccept	sockets.c	/^int tcpaccept(int lsock) {$/;"	f
+tcpaccfdata	sockets.c	/^int tcpaccfdata(int sock) {$/;"	f
+tcpaccfhttp	sockets.c	/^int tcpaccfhttp(int sock) {$/;"	f
+tcpaddrconnect	sockets.c	/^int tcpaddrconnect(int sock,uint32_t addr) {$/;"	f
+tcpaddrconvert	sockets.h	52;"	d
+tcpaddrlisten	sockets.c	/^int tcpaddrlisten(int sock,uint32_t addr,uint16_t queue) {$/;"	f
+tcpclose	sockets.c	/^int tcpclose(int sock) {$/;"	f
+tcpconnect	sockets.c	/^int tcpconnect(int sock,const char *hostname,const char *service) {$/;"	f
+tcpgetpeer	sockets.c	/^int tcpgetpeer(int sock,uint32_t *ip,uint16_t *port) {$/;"	f
+tcpgetstatus	sockets.c	/^int tcpgetstatus(int sock) {$/;"	f
+tcplisten	sockets.c	/^int tcplisten(int sock,const char *hostname,const char *service,uint16_t queue) {$/;"	f
+tcpnodelay	sockets.c	/^int tcpnodelay(int sock) {$/;"	f
+tcpnonblock	sockets.h	53;"	d
+tcpnumconnect	sockets.c	/^int tcpnumconnect(int sock,uint32_t ip,uint16_t port) {$/;"	f
+tcpnumlisten	sockets.c	/^int tcpnumlisten(int sock,uint32_t ip,uint16_t port,uint16_t queue) {$/;"	f
+tcpread	sockets.c	/^int32_t tcpread(int sock,void *buff,uint32_t leng) {$/;"	f
+tcpreuseaddr	sockets.c	/^int tcpreuseaddr(int sock) {$/;"	f
+tcpsocket	sockets.c	/^int tcpsocket(void) {$/;"	f
+tcptoread	sockets.c	/^int32_t tcptoread(int sock,void *buff,uint32_t leng,uint32_t msecto) {$/;"	f
+tcptowrite	sockets.c	/^int32_t tcptowrite(int sock,const void *buff,uint32_t leng,uint32_t msecto) {$/;"	f
+tcpwrite	sockets.c	/^int32_t tcpwrite(int sock,const void *buff,uint32_t leng) {$/;"	f
+thid	con_ser.c	/^	pthread_t thid;$/;"	m	struct:_threc	file:
+threc	con_ser.c	/^} threc;$/;"	t	typeref:struct:_threc	file:
+threc_head	con_ser.c	/^static threc *threc_head = NULL;$/;"	v	file:
+udpaddrconvert	sockets.h	81;"	d
+udpaddrlisten	sockets.c	/^int udpaddrlisten(int sock,uint32_t addr) {$/;"	f
+udpclose	sockets.c	/^int udpclose(int sock) {$/;"	f
+udplisten	sockets.c	/^int udplisten(int sock,const char *hostname,const char *service) {$/;"	f
+udpnonblock	sockets.h	82;"	d
+udpnumlisten	sockets.c	/^int udpnumlisten(int sock,uint32_t ip,uint16_t port) {$/;"	f
+udpread	sockets.c	/^int udpread(int sock,uint32_t addr,void *buff,uint16_t leng) {$/;"	f
+udpsocket	sockets.c	/^int udpsocket(void) {$/;"	f
+udpwrite	sockets.c	/^int udpwrite(int sock,uint32_t addr,const void *buff,uint16_t leng) {$/;"	f
+uint16_t	sockets.h	/^typedef unsigned __int16 uint16_t;$/;"	t
+uint32_t	sockets.h	/^typedef unsigned __int32 uint32_t;$/;"	t
+uint8_t	sockets.h	/^typedef unsigned __int8 uint8_t;$/;"	t
+w_lasttime	con_cli.c	/^	uint32_t w_lasttime;$/;"	m	struct:cli_info	file:
+write_to_cli	con_cli.c	/^void write_to_cli(cli_info *info)$/;"	f
